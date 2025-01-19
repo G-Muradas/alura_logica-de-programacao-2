@@ -13,7 +13,6 @@ function gerarNumeroAleatorio() {
         return gerarNumeroAleatorio();
     } else {
         listaNumerosSorteados.push(numeroEscolhido);
-        console.log(numeroEscolhido, listaNumerosSorteados);
         return numeroEscolhido;
     }
 }
